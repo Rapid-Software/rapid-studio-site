@@ -92,8 +92,33 @@ h2 {
 }
 
 button {
+    background-color: #F36F69;
+    border-radius: 5px;
 
+    font-family: 'Klima';
+    font-weight: 700;
+    font-size: .9rem;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    /* remove border line */
+    border: none;
+
+    /* padding */
+    padding: 10px 20px;
+
+    /* set dynamic width and height */
+    width: fit-content;
+    height: fit-content;
 }
+
+button:hover {
+    background-color: #EF3983;
+    cursor: pointer;
+}
+
 
 /* Fonts */
 @font-face {
