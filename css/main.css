@@ -16,7 +16,7 @@ header>div>a {
     margin: 10px;
 
     font-family: 'Klima';
-    font-weight: 700;
+    font-weight: 550;
     font-size: 18px;
     line-height: 21px;
     /* identical to box height */
@@ -60,8 +60,23 @@ a {
     color: black;
 }
 
+a.purple {
+    color: #EF3983 !important;
+}
+
+a.bold {
+    color: black;
+    font-weight: 700 !important;
+}
+
 /* Fonts */
 @font-face {
     font-family: 'Klima';
     src: local('Klima'), url('../assets/fonts/klima-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Klima';
+    src: local('Klima'), url('../assets/fonts/klima-bold.otf') format('opentype');
+    font-weight: bold;
 }
