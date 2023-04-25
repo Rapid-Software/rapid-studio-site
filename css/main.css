@@ -16,14 +16,22 @@ header>div>a {
     margin: 10px;
 
     font-family: 'Klima';
-font-style: italic;
-font-weight: 700;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
 
 
-color: #373737;
+    color: #373737;
+}
+
+header>div>a:hover {
+    background-color: #BA8A9B;
+    color: white;
+
+    /* fade transition */
+    transition: background-color 0.5s ease;
+
 }
 
 header>div.links {
@@ -55,5 +63,5 @@ a {
 /* Fonts */
 @font-face {
     font-family: 'Klima';
-    src:local('Klima'), url('../assets/fonts/klima-regular.otf') format('opentype');
+    src: local('Klima'), url('../assets/fonts/klima-regular.otf') format('opentype');
 }
