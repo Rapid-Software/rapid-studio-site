@@ -69,6 +69,31 @@ a.bold {
     font-weight: 700 !important;
 }
 
+h1 {
+    font-family: 'Klima';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #373737;
+}
+
+h2 {
+    font-family: 'Klima';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+button {
+    
+}
+
 /* Fonts */
 @font-face {
     font-family: 'Klima';

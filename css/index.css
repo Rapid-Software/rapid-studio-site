@@ -1,3 +1,40 @@
 body {
     background-color: #BA8A9B;
 }
+
+.hero {
+    /* 1x2 grid justify content */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "text image";
+
+    /* center */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero>div.text {
+    /* 3x1 grid */
+    grid-area: text;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "title" "subtitle" "button";
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-section {
+
+}
+
+.third-section {
+
+}
+
+.pricing {
+
+}
