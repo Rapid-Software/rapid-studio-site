@@ -12,7 +12,8 @@ body {
     /* center */
     justify-content: center;
     align-items: center;
-    
+
+
 }
 
 .hero>div.text {
@@ -20,7 +21,6 @@ body {
     grid-area: text;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "title" "subtitle" "button";
     justify-content: center;
     align-items: center;

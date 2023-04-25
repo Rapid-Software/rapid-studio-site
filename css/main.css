@@ -26,8 +26,7 @@ header>div>a {
 }
 
 header>div>a:hover {
-    background-color: #BA8A9B;
-    color: white;
+    color: white !important;
 
     /* fade transition */
     transition: background-color 0.5s ease;
@@ -61,7 +60,9 @@ a {
 }
 
 a.purple {
+    /* override */
     color: #EF3983 !important;
+
 }
 
 a.bold {
@@ -91,7 +92,7 @@ h2 {
 }
 
 button {
-    
+
 }
 
 /* Fonts */
