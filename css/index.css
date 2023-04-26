@@ -129,6 +129,31 @@
     flex-direction: row;
 }
 
+.counter-grid>h1 {
+    /* font family kilma font w: 400, font size 128 lh 148px*/
+    font-family: 'Klima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 148px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0;
+    margin: 0;
+
+}
+
+.pink>h1 {
+    color: #ED128B;
+}
+
+.pastel>h1 {
+    color: #F26270;
+}
+
+.orange>h1 {
+    color: #F48A56;
+}   
+
 .counter-grid>div.counter-text {
     /*  make a flexbox going vertical */
     display: flex;
