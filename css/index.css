@@ -123,8 +123,22 @@
 
 }
 
+.counter-grid {
+    /*  make a flexbox going horizontal */
+    display: flex;
+    flex-direction: row;
+}
 
-.counter-section {}
+.counter-grid>div.counter-text {
+    /*  make a flexbox going vertical */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.counter-text>h2, .counter-text>h3 {
+    text-align: left;
+}
 
 .third-section {}
 
