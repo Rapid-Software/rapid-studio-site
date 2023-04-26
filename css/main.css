@@ -1,3 +1,12 @@
+body {
+    background-color: #BA8A9B;
+}
+
+/* remove scroll bar */
+body::-webkit-scrollbar {
+    display: none;
+}
+
 header {
     /* 1x3 grid evenly spaced  */
     display: grid;
@@ -63,7 +72,7 @@ header>div.login {
 }
 
 /* make login section a hamburger menu for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
 
     /*todo: make new grid for header*/
 

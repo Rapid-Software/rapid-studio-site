@@ -1,7 +1,3 @@
-body {
-    background-color: #BA8A9B;
-}
-
 .hero {
     /* 1x2 grid justify content */
     display: grid;
@@ -17,8 +13,9 @@ body {
 
 
     /* add padding to the right and left */
-    padding: 0 10% 0 10%;
+    padding: 0 10% 10% 10%;
 
+    
 
 }
 
@@ -51,6 +48,34 @@ body {
     .hero>div.image {
         display: none;
     }
+
+    /* make hero a flex box and center the text */
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* make text a flex box and center the text */
+    .hero>div.text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* make button a flex box and center the text */
+    .hero>div.text>div.button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* align text */
+    .hero>div.text>h1, .hero>div.text>h2 {
+        text-align: center;
+    }
+
 }
 
 .second-section {
@@ -73,7 +98,9 @@ body {
 
 }
 
-.counter-section
+.counter-section {
+
+}
 
 .third-section {
 
