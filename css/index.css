@@ -11,7 +11,13 @@ body {
 
     /* center */
     justify-content: center;
-    align-items: center;
+    
+    /* align to the top */
+    align-items: flex-start;
+
+
+    /* add padding to the right and left */
+    padding: 0 10% 0 10%;
 
 
 }
@@ -35,11 +41,39 @@ body {
     justify-content: center;
     align-items: center;
 
+    /* set the max width */
+    max-width: 550px;
+
+}
+
+/* make image dissapear when resolution is too small */
+@media (max-width: 1440px) {
+    .hero>div.image {
+        display: none;
+    }
 }
 
 .second-section {
 
 }
+
+.counter-section {
+    /*  make a flexbox going vertical */
+    display: flex;
+    flex-direction: column;
+}
+
+.counter-section>div.counter {
+    /* make a 1x2 grid */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "number text";
+
+
+}
+
+.counter-section
 
 .third-section {
 

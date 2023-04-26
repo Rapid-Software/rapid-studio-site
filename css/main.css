@@ -6,6 +6,13 @@ header {
     grid-template-areas: "logo nav login";
     /* 1x3 grid evenly spaced  */
 
+    /* add some padding to the bottom to create some space */
+    padding-bottom: 5%;
+}
+
+/* make max width of header logo image to 220 */
+header>div.logo>img {
+    max-width: 215px;
 }
 
 header>div>a {
@@ -19,6 +26,7 @@ header>div>a {
     font-weight: 550;
     font-size: 18px;
     line-height: 21px;
+    min-width: 120px;
     /* identical to box height */
 
 
@@ -52,6 +60,27 @@ header>div.login {
     display: flex;
     justify-content: right;
     align-items: center;
+}
+
+/* make login section a hamburger menu for smaller screens */
+@media (max-width: 768px) {
+
+    /*todo: make new grid for header*/
+
+    header>div.login {
+        display: none;
+    }
+
+    header>div.links {
+        display: none;
+    }
+
+    header>div.hamburger {
+        grid-area: login;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
 }
 
 a {
@@ -91,6 +120,19 @@ h2 {
     color: #000000;
 }
 
+/* shrink sizes of h1 and h2 with screen size */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
 button {
     background-color: #F36F69;
     border-radius: 5px;
@@ -117,6 +159,11 @@ button {
 button:hover {
     background-color: #EF3983;
     cursor: pointer;
+}
+
+/* button click */
+button:active {
+    background-color: black; /* todo: */
 }
 
 
