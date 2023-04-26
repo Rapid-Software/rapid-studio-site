@@ -199,6 +199,26 @@ footer>div.footer-link-section {
 
 }
 
+.footer-link-section>div.links-col {
+    /* flex, align left, padding 10px, flex-col */
+    display: flex;
+    flex-direction: column;
+}
+
+.link-col>h3 {
+    margin:0;
+    padding:0;
+
+}
+
+.link-col>div.links {
+    /* flex, align left, padding 10px, flex-col */
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    min-height: 150px;
+}
+
 /* Fonts */
 @font-face {
     font-family: 'Klima';
