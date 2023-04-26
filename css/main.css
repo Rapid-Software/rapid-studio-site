@@ -1,5 +1,7 @@
 body {
     background-color: #BA8A9B;
+    padding: 0;
+    margin: 0;
 }
 
 /* remove scroll bar */
@@ -177,6 +179,25 @@ button:active {
     background-color: black; /* todo: */
 }
 
+
+/* FOOTER */
+footer {
+    background-color: #3D3B3C;
+    margin:0px;
+    padding:0px;
+    min-width:max-content;
+    height:auto;
+}
+
+footer>div.footer-link-section {
+    /* flex, align left, padding 10px, flex-row */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    flex-direction: row;
+
+}
 
 /* Fonts */
 @font-face {

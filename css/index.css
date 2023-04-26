@@ -91,7 +91,7 @@
 
 .second-grid {
     /* add padding to the right and left */
-    padding: 0 10% 10% 10%;
+    padding: 0 10% 0% 10%;
 
     /* flexbox, flex direction row, justify */
     display: flex;
